@@ -15,10 +15,9 @@ let games = [
     }
 ]
 
-/* Procure na documentação do lodash o(s) método(s) responsável 
-  e ordene a lista de jogos em ordem decrescente de ano.*/
+//Imprima a lista de jogos de trás pra frente, utilizando lodash.
 
 let resultado;
-resultado = _.orderBy(games, ['ano'], ['desc']);
+resultado = _.reverse(games);
 
 console.log(resultado);
