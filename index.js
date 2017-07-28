@@ -15,11 +15,10 @@ let games = [
     }
 ]
 
-// Precisa buscar e printar os anos maiores ou iguais a 1991
+/* Procure na documentação do lodash o método responsável 
+   e ordene a lista de jogos em ordem crescente de nome.*/
 
 let resultado;
-resultado = _.filter(games, (jogo_atual) => {
-    return jogo_atual.ano >= 1991; 
-})
+resultado = _.orderBy(games, ['nome'], ['asc']);
 
 console.log(resultado);
