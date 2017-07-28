@@ -1,0 +1,22 @@
+{
+  "name": "workshop-angular",
+  "version": "1.0.0",
+  "description": "<b>Créditos</b>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiomsnet/workshop-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiomsnet/workshop-angular/issues",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+  },
+  "homepage": "https://github.com/fabiomsnet/workshop-angular#readme"
+}
