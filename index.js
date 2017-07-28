@@ -15,9 +15,8 @@ let games = [
     }
 ]
 
-//Imprima a lista de jogos de trás pra frente, utilizando lodash.
+//Remova da lista o jogo Top Gear, utilizando lodash.
 
-let resultado;
-resultado = _.reverse(games);
+_.pullAt(games, 2);
 
-console.log(resultado);
+console.log(games);
