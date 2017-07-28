@@ -15,10 +15,10 @@ let games = [
     }
 ]
 
-/* Procure na documentação do lodash o método responsável 
-   e ordene a lista de jogos em ordem crescente de nome.*/
+/* Procure na documentação do lodash o(s) método(s) responsável 
+  e ordene a lista de jogos em ordem decrescente de ano.*/
 
 let resultado;
-resultado = _.orderBy(games, ['nome'], ['asc']);
+resultado = _.orderBy(games, ['ano'], ['desc']);
 
 console.log(resultado);
